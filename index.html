@@ -138,7 +138,7 @@
         <style type="text/css">
                 img.wp-smiley,
                 img.emoji {
-                        display: inline !important;
+                        display: inline-block !important;
                         border: none !important;
                         box-shadow: none !important;
                         height: 1em !important;
@@ -149,43 +149,46 @@
                         padding: 0 !important;
                 }
         </style>
-        <link rel='stylesheet' id='form-style-css' href='./form-style.css'
+        <link rel='stylesheet' id='form-style-css' href='./css/form-style.css'
                 type='text/css' />
-        <link rel='stylesheet' id='mo_openid_admin_settings_style-css' href='./mo_openid_style.css'
+        <link rel='stylesheet' id='mo_openid_admin_settings_style-css' href='./css/mo_openid_style.css'
                 type='text/css' />
-        <link rel='stylesheet' id='mo_openid_admin_settings_phone_style-css' href='./phone.css'
+        <link rel='stylesheet' id='mo_openid_admin_settings_phone_style-css' href='./css/phone.css'
                 type='text/css' />
-        <link rel='stylesheet' id='mo-wp-bootstrap-social-css' href='./bootstrap-social.css'
+        <link rel='stylesheet' id='mo-wp-bootstrap-social-css' href='./css/bootstrap-social.css'
                 type='text/css' />
-        <link rel='stylesheet' id='mo-wp-bootstrap-main-css' href='./bootstrap.min.css'
+        <link rel='stylesheet' id='mo-wp-bootstrap-main-css' href='./css/bootstrap.min.css'
                 type='text/css' />
-        <link rel='stylesheet' id='mo-wp-font-awesome-css' href='./font-awesome.min.css'
+        <link rel='stylesheet' id='mo-wp-font-awesome-css' href='./css/font-awesome.min.css'
                 type='text/css' />
-        <link rel='stylesheet' id='contact-form-7-css' href='./styles.css'
+        <link rel='stylesheet' id='contact-form-7-css' href='./css/styles.css'
                 type='text/css' />
-        <link rel='stylesheet' id='gglcptch-css' href='./gglcptch.css'
+        <link rel='stylesheet' id='gglcptch-css' href='./css/gglcptch.css'
                 type='text/css' />
-        <link rel='stylesheet' id='wpmenucart-icons-css' href='./wpmenucart-icons.css'
+        <link rel='stylesheet' id='wpmenucart-icons-css' href='./css/wpmenucart-icons.css'
                 type='text/css' />
-        <link rel='stylesheet' id='wpmenucart-fontawesome-css' href='./wpmenucart-fontawesome.css'
+        <link rel='stylesheet' id='wpmenucart-fontawesome-css' href='./css/wpmenucart-fontawesome.css'
                 type='text/css' />
-        <link rel='stylesheet' id='wpmenucart-css' href='./wpmenucart-main.css'
+        <link rel='stylesheet' id='wpmenucart-css' href='./css/wpmenucart-main.css'
                 type='text/css' />
-        <link rel='stylesheet' id='woocommerce-layout-css' href='./woocommerce-layout.css'
+        <link rel='stylesheet' id='woocommerce-layout-css' href='./css/woocommerce-layout.css'
                 type='text/css' />
-        <link rel='stylesheet' id='woocommerce-smallscreen-css' href='./woocommerce-smallscreen.css'
+        <link rel='stylesheet' id='woocommerce-smallscreen-css' href='./css/woocommerce-smallscreen.css'
                 type='text/css' media='only screen and (max-width: 768px)' />
-        <link rel='stylesheet' id='woocommerce-general-css' href='./woocommerce.css'
+        <link rel='stylesheet' id='woocommerce-general-css' href='./css/woocommerce.css'
                 type='text/css' />
         <link rel='stylesheet' id='twentysixteen-fonts-css' href='https://fonts.googleapis.com/css?family=Merriweather%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic%7CMontserrat%3A400%2C700%7CInconsolata%3A400&#038;subset=latin%2Clatin-ext'
                 type='text/css' />
-        <link rel='stylesheet' id='genericons-css' href='./genericons.css'
+        <link rel='stylesheet' id='genericons-css' href='./css/genericons.css'
                 type='text/css' />
-        <link rel='stylesheet' id='twentysixteen-style-css' href='./style.css'
+        <link rel='stylesheet' id='twentysixteen-style-css' href='./css/style.css'
                 type='text/css' />
-        <link rel="stylesheet" href="./slick.css"/>
+        <link rel="stylesheet" href="./css/slick.css"/>
                 <!-- Add the new slick-theme.css if you want the default styling -->
-        <link rel="stylesheet" href="./slick-theme.css"/>
+        <link rel="stylesheet" href="./css/slick-theme.css"/>
+        <!-- Styles for slick slides (custom) -->
+        <link rel="stylesheet" href="./css/own-slick-config.css"
+                type="text/css" />
         <!--[if lt IE 10]>
 <link rel='stylesheet' id='twentysixteen-ie-css'  href='https://www.coinmarketplus.com/wp-content/themes/twentysixteen/css/ie.css?ver=20160816' type='text/css' media='all' />
 <![endif]-->
@@ -420,16 +423,16 @@
                         <!-- Tasked slider (slick JS) -->
                         <div class="slick_box">
                                 <div><div class="slick_elem">
-                                        <img src="./DbDpyukVQAAWjLx.jpg" alt="" />
+                                        <img src="./img/DbDpyukVQAAWjLx.jpg" alt="" />
                                 </div></div>
                                 <div><div class="slick_elem">
-                                        <img src="./DQ067O-X0AAiNGE.jpg" alt="" />
+                                        <img src="./img/DQ067O-X0AAiNGE.jpg" alt="" />
                                 </div></div>
                                 <div><div class="slick_elem">
-                                        <img src="./ico-1024x683.jpg" alt="" />
+                                        <img src="./img/ico-1024x683.jpg" alt="" />
                                 </div></div>
                                 <div><div class="slick_elem">
-                                        <img src="./icos.jpg" alt="" />
+                                        <img src="./img/icos.jpg" alt="" />
                                 </div></div>
                                                                         
                         </div>
@@ -6028,17 +6031,20 @@
                         <i class="fa fa-angle-up"></i>
                 </span>
         </div>
-        <script src="./owl.carousel.min.js"></script>
-        <script src="./bootstrap.min.js"></script>
-        <script src="./bootstrap-select.min.js"></script>
-        <script src="./newVotes.js"></script>
-        <script src="./moment-with-locales.js"></script>
-        <script src="./bootstrap-datetimepicker.js"></script>
+        <script src="./js/owl.carousel.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/bootstrap-select.min.js"></script>
+        <script src="./js/newVotes.js"></script>
+        <script src="./js/moment-with-locales.js"></script>
+        <script src="./js/bootstrap-datetimepicker.js"></script>
         <!-- Can to paste your slick js settings code here below -->
         <script type="text/javascript">
                 $(document).ready(function(){
                         $('.slick_box').slick({
                                 centerMode: true,
+                                dots: true,
+                                centerPadding: '10px',
+                                // variableWidth: true
                         });
                 });
         </script>
@@ -6128,10 +6134,10 @@
                         });
                 });
         </script>
-        <script src="./particles.js"></script>
-        <script src="./app.js"></script>
-        <script src="./function.js"></script>
-        <script src="./jquery.dataTables.min.js"></script>
+        <script src="./js/particles.js"></script>
+        <script src="./js/app.js"></script>
+        <script src="./js/function.js"></script>
+        <script src="./js/jquery.dataTables.min.js"></script>
         <script>
                 $(document).ready(function () {
                         $('#icocal-1').DataTable({
@@ -6193,7 +6199,7 @@
                         background: #6C6 !important;
                 }
         </style>
-        <script type="text/javascript" src="./slick.min.js"></script>
+        <script type="text/javascript" src="./js/slick.min.js"></script>
 
         <!--Embed from Zendesk Chat Chat Wordpress Plugin v1.4.12-->
         <!--Start of Zopim Live Chat Script-->
@@ -6241,8 +6247,8 @@
                 /* ]]> */
         </script>
         <script type='text/javascript' src='https://www.coinmarketplus.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.1'></script>
-        <script type='text/javascript' src='./jquery.blockUI.min.js'></script>
-        <script type='text/javascript' src='./js.cookie.min.js'></script>
+        <script type='text/javascript' src='./js/jquery.blockUI.min.js'></script>
+        <script type='text/javascript' src='./js/js.cookie.min.js'></script>
         <script type='text/javascript'>
                 /* <![CDATA[ */
                 var woocommerce_params = {
@@ -6251,7 +6257,7 @@
                 };
                 /* ]]> */
         </script>
-        <script type='text/javascript' src='./woocommerce.min.js'></script>
+        <script type='text/javascript' src='./js/woocommerce.min.js'></script>
         <script type='text/javascript'>
                 /* <![CDATA[ */
                 var wc_cart_fragments_params = {
@@ -6261,8 +6267,8 @@
                 };
                 /* ]]> */
         </script>
-        <script type='text/javascript' src='./cart-fragments.min.js'></script>
-        <script type='text/javascript' src='./skip-link-focus-fix.js'></script>
+        <script type='text/javascript' src='./js/cart-fragments.min.js'></script>
+        <script type='text/javascript' src='./js/skip-link-focus-fix.js'></script>
         <script type='text/javascript'>
                 /* <![CDATA[ */
                 var screenReaderText = {
@@ -6271,8 +6277,8 @@
                 };
                 /* ]]> */
         </script>
-        <script type='text/javascript' src='./functions.js'></script>
-        <script type='text/javascript' src='./wp-embed.min.js'></script>
+        <script type='text/javascript' src='./js/functions.js'></script>
+        <script type='text/javascript' src='./js/wp-embed.min.js'></script>
 </body>
 
 </html>

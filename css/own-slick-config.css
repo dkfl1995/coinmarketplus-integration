@@ -1,0 +1,29 @@
+
+/* Making slick-slide element vertically centered (if needed) assessing to slick-track class (describes entire slides line). As in our situation height is absolutely set up and images here
+behaves only on width to calculate. */
+
+/* Hiding, for more, content overflow, making padding(optionally, NOTE: dont use margin here anyway, it will brake all slider layout). Configuring the maximal height to be sure element wont 
+overgoing by its childs */
+.slick_elem{
+    overflow: hidden;
+    padding: 1%;
+    height: 80vmin;
+    max-height: 512px;
+    width: auto;
+    max-width: 1024px;
+}
+/* Limiting image dimensions to predicted rates. Making height as basic calculating dimension. */
+.slick_elem > img{  
+    max-height: 512px;
+    max-width: 1024px;
+    /* height: 100%; */
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* Customizing default slick dots class to make dots more correctly visible. Dots there are set as custom slick font with content: ' -||- ' */
+.slick-dots li button::before{
+    font-size: 15px
+}

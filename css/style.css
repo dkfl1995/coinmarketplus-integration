@@ -12514,20 +12514,7 @@ button.sbmtfrm:hover {
 }
 
 @media screen and (min-width:320px) and (max-width:479px) {
-    .slick_elem{
-        overflow: hidden;
-        width: 100%;
-        padding: 1%;
-        max-height: 512px;
-        max-width: 1024px;
-    }
-    .slick_elem > img{
-        overflow: hidden;
-        
-        width: 100%;
-        margin: 0 auto;
-        height: auto;
-    }
+   
     .Coinmarketplus,
     .dataTables_wrapper,
     .scrollSlt,
@@ -13101,20 +13088,7 @@ button.sbmtfrm:hover {
 }
 
 @media screen and (min-width:480px) and (max-width:767px) {
-    .slick_elem{
-        overflow: hidden;
-        width: 100%;
-        padding: 1%;
-        max-height: 512px;
-        max-width: 1024px;
-    }
-    .slick_elem > img{
-        overflow: hidden;
-        
-        width: 100%;
-        margin: 0 auto;
-        height: auto;
-    }
+    
     .Coinmarketplus,
     .dataTables_wrapper,
     .scrollSlt {
@@ -13576,20 +13550,7 @@ button.sbmtfrm:hover {
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
-    .slick_elem{
-        overflow: hidden;
-        width: 100%;
-        padding: 1%;
-        max-height: 512px;
-        max-width: 1024px;
-    }
-    .slick_elem > img{
-        overflow: hidden;
-        
-        width: 100%;
-        margin: 0 auto;
-        height: auto;
-    }
+    
     .logo {
         width: 160px
     }
@@ -13801,20 +13762,7 @@ button.sbmtfrm:hover {
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
-    .slick_elem{
-        overflow: hidden;
-        width: 100%;
-        padding: 1%;
-        max-height: 512px;
-        max-width: 1024px;
-    }
-    .slick_elem > img{
-        overflow: hidden;
-        
-        width: 100%;
-        margin: 0 auto;
-        height: auto;
-    }
+    
     .home_main_rght_ad {
         overflow: hidden
     }
@@ -13858,21 +13806,5 @@ button.sbmtfrm:hover {
     }
     .company-name {
         font-size: 12px;
-    }
-}
-@media screen and (min-width: 1200px){
-    .slick_elem{
-        overflow: hidden;
-        width: 100%;
-        padding: 1%;
-        max-height: 512px;
-        max-width: 1024px;
-    }
-    .slick_elem > img{
-        overflow: hidden;   
-        width: 100%;
-        margin: auto 0;
-        height: auto;
-        object-fit: cover;
     }
 }
