@@ -1,7 +1,7 @@
 Author: Vlad Vityaz //
 Forked from website sources: www.coinmarketplus.com //
 
-                        ### Theme: “How to create mockup from https://www.coinmarketplus.com/ page?”
+### Theme: “How to create mockup from https://www.coinmarketplus.com/ page?”
 
 
 1. ##### Creating local website sources folder:
